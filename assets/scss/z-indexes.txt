@@ -1,0 +1,7 @@
+//Чем выше элемент - тем выше по z-index
+
+header = 100
+mobile-menu = 99
+overlay = 98
+loader = 97
+sticky = 95

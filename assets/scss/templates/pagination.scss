@@ -1,0 +1,38 @@
+.per-page {
+  max-width: 100px;
+  box-shadow: none;
+  border-color: $back-blue;
+
+  &:hover, &:focus {
+    box-shadow: none;
+    border-color: $back-blue;
+  }
+
+  option {
+    &:hover, &:focus {
+      box-shadow: none;
+      border-color: $back-blue;
+      background-color: $back-blue;
+    }
+  }
+}
+
+.pagination {
+  .page-item {
+    button {
+      color: $main-blue;
+
+      &:hover, &:focus {
+        box-shadow: none;
+      }
+    }
+    &.active {
+      button {
+        background-color: $back-blue;
+        border-color: $back-blue;
+        color: $main-white-text;
+        box-shadow: none;
+      }
+    }
+  }
+}

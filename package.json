@@ -1,0 +1,44 @@
+{
+  "name": "NuxtStandart",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server",
+    "build": "nuxt build",
+    "start": "node server",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "@nuxtjs/universal-storage": "^0.5.9",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "consola": "^2.15.3",
+    "cookie-universal-nuxt": "^2.1.4",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nuxt": "^2.14.12",
+    "nuxt-compress": "^4.1.0",
+    "nuxt-mq": "^2.0.2",
+    "prettier": "^2.2.1",
+    "vue": "^2.6.12",
+    "vue-lock-scroll": "^1.0.14",
+    "vue-scroll-lock": "0.0.6",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-yandex-maps": "^0.10.12",
+    "vue2-scrollbar": "0.0.3"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.6.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "nodemon": "^2.0.7",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1"
+  }
+}

@@ -1,0 +1,16 @@
+.btn-primary {
+  background-color: $back-buttons;
+  border: 1px solid $border-blue;
+  outline: none;
+
+  &:hover, &:active, &:focus {
+    background-color: lighten($back-buttons, 5%) !important;
+    border: 1px solid $border-blue !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}

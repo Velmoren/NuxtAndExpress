@@ -1,0 +1,51 @@
+.profile-table {
+  background-color: white;
+  td, th {
+    text-align: center;
+    border-color: $border-tables;
+  }
+  .thead-light {
+    th {
+      color: $main-blue;
+      background-color: $back-gray-dark;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+  }
+
+  td {
+    color: $main-black-text;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+
+.profile-info-table {
+  td, th {
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle !important;
+  }
+}
+
+.profile-info-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.profile-info-subtitle {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.profile-modal-card {
+  border-color: #343a40;
+  .card-header, .card-footer {
+    background-color: #343a40;
+    color: #fff;
+  }
+}
